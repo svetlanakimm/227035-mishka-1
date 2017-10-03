@@ -1,0 +1,20 @@
+.product-week__title {
+  @include font-set(25px, 700, 30px);
+  color: $black;
+}
+
+.product-week__label {
+  @include font-set(17px, 700, 20px);
+  color: $color-primary;
+}
+
+.product-week__text,
+.product-week__table-field {
+  @include font-set(17px, 400, 20px);
+  color: $color-primary-text;
+}
+
+.product-week__price {
+  @include font-set(17px, 700, 24px);
+  color: $color-primary-text;
+}

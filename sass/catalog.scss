@@ -1,0 +1,18 @@
+.catalog-item {
+  border: 1px solid $light-border;
+}
+
+.catalog-item__name {
+  @include font-set(17px, 700, 24px);
+  color: $black;
+}
+
+.catalog-item__text {
+  @include font-set(13px, 400, 30px);
+  color: $color-primary-text;
+}
+
+.catalog-item__price {
+  @include font-set(15px, 700, 24px);
+  color: $black;
+}

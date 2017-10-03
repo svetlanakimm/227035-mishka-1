@@ -1,0 +1,13 @@
+.about__title {
+  @include font-set(25px, 700, 30px);
+  color: $black;
+}
+
+.about__icon {
+  fill: $color-primary;
+}
+
+.about__list-item {
+  @include font-set(17px, 700, 20px);
+  color: $black;
+}

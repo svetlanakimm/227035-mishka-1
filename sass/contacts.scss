@@ -1,0 +1,11 @@
+.contacts__title {
+  @include font-set(18px, 700, 30px);
+  color: $black;
+}
+
+.contacts__field,
+.contacts__link,
+.contacts__text {
+  @include font-set(15px, 400, 30px);
+  color: $color-primary-text;
+}
