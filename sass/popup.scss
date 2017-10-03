@@ -1,0 +1,25 @@
+.popup {
+  border-top: 1px solid $dark-border;
+  border-bottom: 1px solid $dark-border;
+}
+
+.popup__title {
+  @include font-set(25px, 700, 30px);
+  color: $black;
+}
+
+.popup__subtitle {
+  @include font-set(15px, 400, 30px);
+  color: $color-primary-text;
+}
+
+.size_s {
+  @include font-set(15px, 700, 16px);
+  color: $color-primary-text;
+}
+
+.popup__add {
+  border: none;
+  background-color: $color-primary;
+  color: $white;
+}

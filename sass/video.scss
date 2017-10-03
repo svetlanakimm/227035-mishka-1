@@ -1,0 +1,13 @@
+.video {
+  border: 1px solid $light-border;
+}
+
+.video__title {
+  @include font-set(17px, 700, 24px);
+  color: $black;
+}
+
+.video__text {
+  @include font-set(13px, 400, 24px);
+  color: $color-primary-text;
+}

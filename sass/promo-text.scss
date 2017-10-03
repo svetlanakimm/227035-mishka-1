@@ -1,0 +1,4 @@
+.promo-text {
+  @include font-set(13px, 400, 24px);
+  color: $color-primary-text;
+}

@@ -1,0 +1,15 @@
+.reviews__title {
+  @include font-set(25px, 700, 30px);
+  color: $black;
+}
+
+.reviews__text,
+.reviews__author-nick {
+  @include font-set(15px, 400, 30px);
+  color: $color-primary-text;
+}
+
+.reviews__author-name {
+  @include font-set(18px, 700, 24px);
+  color: $black;
+}

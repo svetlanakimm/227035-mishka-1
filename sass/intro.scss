@@ -1,0 +1,9 @@
+.intro__title {
+  @include font-set(27px, 700, 30px);
+  color: $black;
+}
+
+.intro--index {
+  background: url("../img/hero-mobile@1x.jpg") no-repeat 50% 0;
+  height: 373px;
+}

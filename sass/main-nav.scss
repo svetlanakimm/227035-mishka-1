@@ -1,0 +1,4 @@
+.main-nav__link {
+  @include font-set(17px, 700, 24px);
+  color: $black;
+}
